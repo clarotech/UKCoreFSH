@@ -1,4 +1,4 @@
-CodeSystem:  NHSDataModelandDictionaryDischargeMethodsss
+CodeSystem:  NHSDataModelandDictionaryDischargeMethod
 Id: NHSDataModelAndDictionary-DischargeMethod
 Title: "NHS Data Model and Dictionary Discharge Method"
 Description:  "The method of discharge from a Hospital Provider Spell."
@@ -7,8 +7,10 @@ Description:  "The method of discharge from a Hospital Provider Spell."
 * ^extension.valueUri = "http://www.datadictionary.nhs.uk/data_dictionary/attributes/d/disc/discharge_method_de.asp?shownav=1"
 * ^url = "https://fhir.hl7.org.uk/CodeSystem/NHSDataModelAndDictionary-DischargeMethod"
 * ^status = #draft
-* ^version = "1.0.1"
+* ^version = "2.0.0"
 * ^date = "2019-11-05T00:00:00+00:00"
+* ^caseSensitive = true
+* ^content = #complete
 * #1 "Patient discharged on clinical advice or with clinical consent"
 * #2 "Patient discharged him/herself or was discharged by a relative or advocate"
 * #3 "Patient discharged by mental health review tribunal, Home Secretary or Court"
