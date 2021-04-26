@@ -2,11 +2,11 @@
   "resourceType": "CodeSystem",
   "status": "draft",
   "content": "complete",
-  "name": "NHSDataModelandDictionaryDischargeMethodsss",
+  "name": "NHSDataModelandDictionaryDischargeMethod",
   "id": "NHSDataModelAndDictionary-DischargeMethod",
   "title": "NHS Data Model and Dictionary Discharge Method",
   "description": "The method of discharge from a Hospital Provider Spell.",
-  "version": "1.0.1",
+  "version": "2.0.0",
   "url": "https://fhir.hl7.org.uk/CodeSystem/NHSDataModelAndDictionary-DischargeMethod",
   "copyright": "Copyright © 2019 NHS Digital",
   "publisher": "NHS Digital",
@@ -29,6 +29,7 @@
     }
   ],
   "date": "2019-11-05T00:00:00+00:00",
+  "caseSensitive": true,
   "concept": [
     {
       "code": "1",
